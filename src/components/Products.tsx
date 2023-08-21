@@ -20,7 +20,6 @@ export default function Products({ filterProducts, setFilterProducts }: Products
   
   function filteredItems(id: number) {
     const itemExists =  filterProducts.some((item: { id: number }) => item.id === id);
-    console.log(itemExists)
     if (!itemExists) {
       const myItem: product[] = Data.products.filter((item) => item.id === id);
       setFilterProducts((prev: any) => [...prev, ...myItem]);
