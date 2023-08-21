@@ -20,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element= {<Products filterProducts={filterProducts} setFilterProducts={setFilterProducts} />} />
           <Route path='/cart' element= {<Cart setFilterProducts={setFilterProducts}/>} />
+          <Route path='*' element= {<Products filterProducts={filterProducts} setFilterProducts={setFilterProducts} />} />
         </Routes>
         <Footer />
     </div> 
