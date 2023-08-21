@@ -5,7 +5,7 @@
       "name": "item101",
       "price": 90,
       "brand": "C",
-      "image": "/images/coffee-2425303_1280.jpg",
+      "image": "../../public/images/coffee-2425303_1280.jpg",
       "quantity": 1
     },
     {
@@ -13,7 +13,7 @@
       "name": "item102",
       "price": 100,
       "brand": "B",
-      "image": "/images/home-office-599475_1280.jpg",
+      "image": "../../public/images/home-office-599475_1280.jpg",
       "quantity": 1
     },
     {
@@ -21,7 +21,7 @@
       "name": "item103",
       "price": 110,
       "brand": "A",
-      "image": "/images/office-925806_1280.jpg",
+      "image": "../../public/images/office-925806_1280.jpg",
       "quantity": 1
       
     }
